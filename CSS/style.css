@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+
+#hii {
+    font-style: inherit;
+    color: green;
+    background-color: cadetblue;
+}
+
+h3 {
+    color: red;
+}
+
+.here {
+    color: black;
+    background-color: aqua;
+}
+
+h5, p.there {
+    color: blue;
+    background-color: aquamarine;
+}
+
+h6, p{
+    color: brown;
+    background-color: chartreuse;
+    text-align: justify;
+}
+
