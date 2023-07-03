@@ -8,7 +8,15 @@
 </head>
 <body>
 
-    <!--style text in style.css by element  -->
+
+    <!--There are three ways of inserting a style sheet:
+    External CSS
+    Internal CSS
+    Inline CSS  -->
+
+    <!-- External styles are defined within the <link> element, inside the <head> section of an HTML page -->
+
+    <!--style text in style.css by element by external css -->
     <h1>This is css 1</h1>
 
     <!--style text in style.css by id -->
@@ -27,6 +35,43 @@
     <!--The CSS rule below will affect every HTML element  -->
     <h6>This is css 6</h6>
     <p>Hello Everyone</p>
+
+    <!--Internal styles are defined within the <style> element, inside the <head> section of an HTML page  -->
+    <!--  <html>
+    <head>
+    <style>
+    body {
+        background-color: linen;
+    }
+
+    h1 {
+      color: maroon;
+      margin-left: 40px;
+    }
+    </style>
+    </head>
+    <body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>-->
+
+
+    <!--#id	#firstname	Selects the element with id="firstname"
+    .class	.intro	Selects all elements with class="intro"
+    element.class	p.intro	Selects only <p> elements with class="intro"
+    *	*	Selects all elements
+    element	p	Selects all <p> elements
+    element,element,..	div, p	Selects all <div> elements and all <p> elements  -->
+
+
+    <!--Inline styles are defined within the "style" attribute of the relevant element  -->
+    <h1 style="color:blue;text-align:center;">This is a heading</h1>
+    <p style="color:red;">This is a paragraph.</p>  
+
+
     
 </body>
 </html>
