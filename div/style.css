@@ -1,0 +1,41 @@
+.a {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.b {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 136, 0);
+    margin-bottom: 10px;
+    margin-left: auto;
+    box-sizing: border-box;
+    font-size: 2pc;
+}
+
+.c {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(206, 95, 57);
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.d {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 68);
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+h1 {
+    color: blue;
+    background-color: rgb(255, 0, 251);
+    font-style: italic;
+    text-align: center;
+}
