@@ -77,3 +77,9 @@ p {
     display: inline-block
 
 }
+
+img {
+    float: left;
+    margin: 10px;
+}
+
