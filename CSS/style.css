@@ -30,13 +30,26 @@ h6, p{
     text-align: justify;
 }
 
-div {
+.margin{
         border: 1px solid black;
         margin-top: 100px;
         margin-bottom: 100px;
         margin-right: 150px;
         margin-left: 80px;
         background-color: lightblue;
-      }
+}
+
+.padding{
+    padding: 70px;
+    border: 1px solid #4CAF50;
+}
+
+.boxmodel{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
 
 
